@@ -48,6 +48,10 @@ class fry_machine(discord.Client):
         await os.remove(path)
 
 
+token_file = open('token.txt')
+token = token_file.readlines[0]
+token_file.close()
+
 # Deep Fry Machine
 dfm = fry_machine()
-dfm.run('NTc1NjkxMDMzNzI4MjUzOTgy.XNMhng.U_iTilfFlftguytGpxJB4l_HSAc')
+dfm.run(token)
