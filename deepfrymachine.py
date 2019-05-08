@@ -49,7 +49,7 @@ class fry_machine(discord.Client):
 
 
 token_file = open('token.txt')
-token = token_file.readlines[0]
+token = token_file.readlines()[0].strip("\n")
 token_file.close()
 
 # Deep Fry Machine
