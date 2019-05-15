@@ -8,3 +8,7 @@ Discord bot written in python.
 - detects images
 - deepfries image embeds
 - deepfries links to images
+
+## Dependencies
+- opencv-python
+- discord.py
